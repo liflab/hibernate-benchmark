@@ -1,13 +1,5 @@
 package hibernate;
 
-import ca.uqac.lif.azrael.PrintException;
-import ca.uqac.lif.azrael.json.JsonStringPrinter;
-import ca.uqac.lif.azrael.json.JsonStringReader;
-import ca.uqac.lif.azrael.size.SizePrinter;
-import ca.uqac.lif.cep.hibernate.FileHibernate;
-import ca.uqac.lif.cep.hibernate.Hibernate;
-import ca.uqac.lif.cep.tmf.Passthrough;
-import ca.uqac.lif.json.JsonFalse;
 import ca.uqac.lif.labpal.Laboratory;
 import ca.uqac.lif.labpal.LatexNamer;
 import ca.uqac.lif.labpal.Region;
