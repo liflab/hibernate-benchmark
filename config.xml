@@ -66,12 +66,35 @@
     </dependency>
     <dependency>
       <!--
+      Azrael Core
+      -->
+      <name>Azrael Core</name>
+      <classname>ca.uqac.lif.azrael.ObjectPrinter</classname>
+      <bundle>true</bundle>
+      <files>
+        <jar>https://github.com/sylvainhalle/Azrael/releases/download/v2.0/azrael-core.jar</jar>
+      </files>
+    </dependency>
+    <dependency>
+      <!--
+      Azrael Size
+      -->
+      <name>Azrael Size</name>
+      <classname>ca.uqac.lif.azrael.size.SizePrinter</classname>
+      <bundle>true</bundle>
+      <files>
+        <jar>https://github.com/sylvainhalle/Azrael/releases/download/v2.0/azrael-size.jar</jar>
+      </files>
+    </dependency>
+    <dependency>
+      <!--
       BeepBeep core
       -->
       <name>BeepBeep</name>
       <classname>ca.uqac.lif.cep.Processor</classname>
+      <bundle>true</bundle>
       <files>
-        <zip>https://github.com/liflab/beepbeep-3/releases/download/v0.11/beepbeep-3-0.11.zip</zip>
+        <zip>https://github.com/liflab/beepbeep-3/releases/download/v0.10.2-alpha/beepbeep-3-0.10.2-alpha.zip</zip>
       </files>
     </dependency>
     <dependency>
@@ -80,6 +103,7 @@
       -->
       <name>BeepBeep Palettes</name>
       <classname>ca.uqac.lif.cep.hibernate.Hibernate</classname>
+      <bundle>true</bundle>
       <files>
         <zip>https://github.com/liflab/beepbeep-3-palettes/releases/download/20190309/beepbeep-3-palettes-v20190309.zip</zip>
       </files>
